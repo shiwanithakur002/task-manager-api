@@ -1,0 +1,80 @@
+/* AddTask.css */
+.add-task-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-task-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-container input,
+  .add-task-container textarea,
+  .add-task-container input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .add-task-container input:focus,
+  .add-task-container textarea:focus,
+  .add-task-container input[type="datetime-local"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-task-container textarea {
+    min-height: 150px;
+  }
+  
+  .add-task-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .add-task-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-task-container .cancel-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-task-container .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .add-task-container label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+  }
+  
